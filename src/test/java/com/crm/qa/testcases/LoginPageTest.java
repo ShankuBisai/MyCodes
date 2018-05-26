@@ -16,7 +16,7 @@ public class LoginPageTest extends TestBase {
 	
 	public LoginPageTest()
 	{
-		super();	
+		super();	  //it will call the super class constructor.
 	}
 	
 	@BeforeMethod

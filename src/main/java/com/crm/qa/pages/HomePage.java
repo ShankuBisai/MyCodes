@@ -2,6 +2,7 @@ package com.crm.qa.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -12,6 +13,10 @@ public class HomePage extends TestBase {
 	
 	//Page Factory Or Object Repository	
 	@FindBy(xpath="//td[contains(text(),'User')]")
+	@CacheLookup   //its available in selenium this annotation will store userNameLabel in cache so instead of loading 
+	//from page it will load from cache so it will improve the performance.
+	//but if the element is refreshed than the element would be stale so if the property of the element is not
+	//changing than we should @CacheLookup.
 	WebElement userNameLabel;
 	
 

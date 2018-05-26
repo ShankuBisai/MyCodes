@@ -9,22 +9,55 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">7</td><td class="num attn">1</td><td class="num">0</td><td class="num">114,555</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">5</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">145,287</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m0">validateCreateNewContact</a></td><td rowspan="1">1521316044158</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m1">verifyContactsPageLabel</a></td><td rowspan="1">1521316067991</td><td rowspan="1">1767</td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m2">verifyContactsLinkTest</a></td><td rowspan="1">1521316141778</td><td rowspan="1">185</td></tr><tr class="passedodd"><td><a href="#m3">verifyHomePageTitle</a></td><td rowspan="1">1521316085419</td><td rowspan="1">31</td></tr><tr class="passedodd"><td><a href="#m4">verifyUserNameTest</a></td><td rowspan="1">1521316109873</td><td rowspan="1">127</td></tr><tr class="passedeven"><td rowspan="3">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m5">crmLogoImageTest</a></td><td rowspan="1">1521316119904</td><td rowspan="1">49</td></tr><tr class="passedeven"><td><a href="#m6">loginPageTitleTest</a></td><td rowspan="1">1521316095339</td><td rowspan="1">14</td></tr><tr class="passedeven"><td><a href="#m7">loginTest</a></td><td rowspan="1">1521316152487</td><td rowspan="1">5551</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m0">crmLogoImageTest</a></td><td rowspan="1">1526813652584</td><td rowspan="1">10700</td></tr><tr class="failedeven"><td><a href="#m1">loginPageTitleTest</a></td><td rowspan="1">1526813621693</td><td rowspan="1">18</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m2">validateCreateNewContact</a></td><td rowspan="1">1526813559225</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m3">verifyContactsPageLabel</a></td><td rowspan="1">1526813585253</td><td rowspan="1">1247</td></tr><tr class="passedodd"><td rowspan="3">com.crm.qa.testcases.HomePageTest</td><td><a href="#m4">verifyContactsLinkTest</a></td><td rowspan="1">1526813685039</td><td rowspan="1">170</td></tr><tr class="passedodd"><td><a href="#m5">verifyHomePageTitle</a></td><td rowspan="1">1526813607348</td><td rowspan="1">11</td></tr><tr class="passedodd"><td><a href="#m6">verifyUserNameTest</a></td><td rowspan="1">1526813641212</td><td rowspan="1">102</td></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m7">loginTest</a></td><td rowspan="1">1526813697087</td><td rowspan="1">6740</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+<h2>Command line test</h2><h3 id="m0">com.crm.qa.testcases.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//img[@class=&apos;img-responsive&apos; and @alt=&apos;&apos;])[1]&quot;}
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.10.0&apos;, revision: &apos;176b4a9&apos;, time: &apos;2018-03-02T19:03:16.397Z&apos;
+System info: host: &apos;LENOVO&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 3e88b5411fc02b691d133dcefc0dc8ad
+*** Element info: {Using=xpath, value=(//img[@class=&apos;img-responsive&apos; and @alt=&apos;&apos;])[1]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:103)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:186)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.LoginPage.validateCRMImage(LoginPage.java:46)
+	at com.crm.qa.testcases.LoginPageTest.crmLogoImageTest(LoginPageTest.java:40)
+... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [#1 Free CRM for Any Business: Online Customer Relationship Software] but found [Free CRM software in the cloud powers sales and customer service]
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:34)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.qa.testcases.ContactsPageTest#validateCreateNewContact</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
 Caused by: java.lang.NullPointerException
 	at com.crm.qa.util.TestUtil.getTestData(TestUtil.java:44)
 	at com.crm.qa.testcases.ContactsPageTest.getCRMTestData(ContactsPageTest.java:54)
 	... 32 more
 ... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.crm.qa.testcases.ContactsPageTest#verifyContactsPageLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.crm.qa.testcases.HomePageTest#verifyContactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.crm.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.crm.qa.testcases.HomePageTest#verifyUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.crm.qa.testcases.LoginPageTest#crmLogoImageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.crm.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.qa.testcases.ContactsPageTest#verifyContactsPageLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.qa.testcases.HomePageTest#verifyContactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.qa.testcases.HomePageTest#verifyUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m7">com.crm.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
