@@ -20,7 +20,7 @@ public class HomePageTest extends TestBase
 	
 	public HomePageTest()
 	{
-		super();			
+		super();		//it will call the super class constructor	
 	}
 	
 	//Test cases and Test classes should be independent of each other.
